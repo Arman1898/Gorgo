@@ -1,0 +1,196 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+a{
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+
+}
+.navbar{
+	display: flex;
+	padding: 20px;
+}
+.logo{
+	flex-basis: 20%;
+	padding-top: 10PX;
+}
+.menu{
+	flex-basis: 50%;
+	padding-top: 8px;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	line-height: 40px;
+	margin-right: 20px;
+}
+.menu ul li a{
+	text-transform: uppercase;
+	font-family: font-family: 'Roboto', sans-serif;
+	color: #000;
+
+}
+.menu ul li:hover{
+	color: #ff6162;
+}
+
+.btn{
+	flex-basis: 30%;
+	text-align: right;
+}
+.btn button{
+	text-decoration: none;
+	color: white;
+	padding: 18px 30px;
+	background: #ff6162;
+	border: none;
+	border-radius: 6px;
+
+	font-size: 18px;
+	font-family: font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+.banner{
+	width: 100%;
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+
+.content{
+	display: flex;
+	align-items: center;
+}
+
+.content-left{
+	flex-basis: 50%;
+}
+
+.content-left h1{
+	margin-bottom: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.content-left p{
+	color: #a0a0a0;
+}
+
+.content-right{
+	flex-basis: 50%;
+}
+
+.project{
+	width: 100%;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.project h1{
+	font-family: 'Roboto', sans-serif;
+}
+
+.project p{
+	color: #a0a0a0;
+	margin-bottom: 30px;
+}
+.project-gallery{
+	display: flex;
+}
+
+.category{
+	margin: 20px;
+	flex-grow: 1; 
+}
+.category img{
+
+}
+
+.category img:hover{
+	box-shadow: 10px 10px 20px;
+}
+.category h3{
+	color: #a0a0a0;
+	margin-top: 10px;
+}
+
+.features{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+}
+
+.top{
+	text-align: center;
+}
+.top h1{
+	font-size: 50px;
+
+}
+.top p{
+	color: #a0a0a0;
+	margin-bottom: 20px;
+
+}
+.features-gallery{
+	display: flex;
+
+}
+.item{
+	background: #f5f5f5;
+    margin: 15px;
+    padding: 15px;
+}
+.item span{
+	display: inline-block;
+	background: white;
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+
+}
+.item span img{
+	margin-top: 12px;
+}
+.item h5{
+	font-family: 'Roboto', sans-serif;
+}
+.item p{
+	color: #a0a0a0;
+}
+
+
+.footer{
+	width: 100%;
+	background-color: #292640;
+	text-align: center;
+	padding: 40px 20px;
+}
+.footer-content{
+	
+}
+.footer-content h1{
+	margin-bottom: 30px;
+	color: white;
+}
+.footer-btn button{
+	text-decoration: none;
+	color: white;
+	padding: 18px 30px;
+	background: #ff6162;
+	border: none;
+	border-radius: 6px;
+
+	font-size: 18px;
+	font-family: font-family: 'Roboto', sans-serif;
+	margin-bottom: 30px;
+}
